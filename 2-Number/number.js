@@ -1,0 +1,16 @@
+var first = 123;
+var second = 0x37CF;
+var third = 255;
+var fourth = 57;
+console.log(first);
+console.log(second);
+console.log(third);
+console.log(fourth);
+var num1 = "asdf";
+var myNumber = new Number(123);
+console.log(myNumber);
+console.log(myNumber.valueOf());
+console.log(typeof num1);
+var num2 = num1.valueOf();
+console.log(num2);
+console.log(typeof num2);
